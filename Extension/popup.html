@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="switch.css">
+
+    <title>Title</title>
+</head>
+<body>
+<div class="w3-container w3-teal">
+    <h1 id="title"><b>YouTube</b> | Sleep </h1>
+</div>
+
+<div class="item">
+    <h3>ВЫКЛ/ВКЛ</h3>
+    <input id="swRun" type="checkbox"/>
+</div>
+
+<div class="w3-panel" id="settings">
+    <label>Время ожидания
+        <select class="w3-select" id="selDelay" required>
+            <option value="0.1">Без ожидания</option>
+            <option value="1">1 минута</option>
+            <option value="5">5 минут</option>
+            <option value="10">10 минут</option>
+            <option value="15">15 минут</option>
+            <option value="30">30 минут</option>
+        </select>
+    </label>
+    <label>Действие
+        <select class="w3-select" id="selAction" required>
+            <option value="shutdown">Выключение</option>
+            <option value="suspend">Сон</option>
+            <option value="hibernate">Гибернация</option>
+        </select>
+    </label>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>

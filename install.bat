@@ -1,0 +1,3 @@
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.youtube_sleep.shutdown" /ve /t REG_SZ /d "%~dp0shutdown\manifest.json" /f
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.youtube_sleep.suspend" /ve /t REG_SZ /d "%~dp0suspend\manifest.json" /f
+REG ADD "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.youtube_sleep.hibernate" /ve /t REG_SZ /d "%~dp0hibernate\manifest.json" /f

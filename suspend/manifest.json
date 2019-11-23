@@ -1,0 +1,9 @@
+{
+  "name": "com.youtube_sleep.suspend",
+  "description": "ddd",
+  "path": "shuspend.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://oaffnilalgfpocgiakiljkepbampgkhp/"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "com.youtube_sleep.hibernate",
+  "description": "ddd",
+  "path": "hibernate.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://oaffnilalgfpocgiakiljkepbampgkhp/"
+  ]
+}
